@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC64E35629DC9C2E000AABED /* PaymentMeliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E35529DC9C2E000AABED /* PaymentMeliApp.swift */; };
+		EC64E35829DC9C2E000AABED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E35729DC9C2E000AABED /* ContentView.swift */; };
+		EC64E35A29DC9C2F000AABED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC64E35929DC9C2F000AABED /* Assets.xcassets */; };
+		EC64E35D29DC9C2F000AABED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC64E35C29DC9C2F000AABED /* Preview Assets.xcassets */; };
+		EC64E36729DC9C2F000AABED /* PaymentMeliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E36629DC9C2F000AABED /* PaymentMeliTests.swift */; };
+		EC64E37129DC9C2F000AABED /* PaymentMeliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E37029DC9C2F000AABED /* PaymentMeliUITests.swift */; };
+		EC64E37329DC9C2F000AABED /* PaymentMeliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E37229DC9C2F000AABED /* PaymentMeliUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC64E36329DC9C2F000AABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC64E34A29DC9C2E000AABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC64E35129DC9C2E000AABED;
+			remoteInfo = PaymentMeli;
+		};
+		EC64E36D29DC9C2F000AABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC64E34A29DC9C2E000AABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC64E35129DC9C2E000AABED;
+			remoteInfo = PaymentMeli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC64E35229DC9C2E000AABED /* PaymentMeli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentMeli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC64E35529DC9C2E000AABED /* PaymentMeliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMeliApp.swift; sourceTree = "<group>"; };
+		EC64E35729DC9C2E000AABED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC64E35929DC9C2F000AABED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC64E35C29DC9C2F000AABED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC64E36229DC9C2F000AABED /* PaymentMeliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentMeliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC64E36629DC9C2F000AABED /* PaymentMeliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMeliTests.swift; sourceTree = "<group>"; };
+		EC64E36C29DC9C2F000AABED /* PaymentMeliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentMeliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC64E37029DC9C2F000AABED /* PaymentMeliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMeliUITests.swift; sourceTree = "<group>"; };
+		EC64E37229DC9C2F000AABED /* PaymentMeliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMeliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC64E34F29DC9C2E000AABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC64E35F29DC9C2F000AABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC64E36929DC9C2F000AABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC64E34929DC9C2E000AABED = {
+			isa = PBXGroup;
+			children = (
+				EC64E35429DC9C2E000AABED /* PaymentMeli */,
+				EC64E36529DC9C2F000AABED /* PaymentMeliTests */,
+				EC64E36F29DC9C2F000AABED /* PaymentMeliUITests */,
+				EC64E35329DC9C2E000AABED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC64E35329DC9C2E000AABED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E35229DC9C2E000AABED /* PaymentMeli.app */,
+				EC64E36229DC9C2F000AABED /* PaymentMeliTests.xctest */,
+				EC64E36C29DC9C2F000AABED /* PaymentMeliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC64E35429DC9C2E000AABED /* PaymentMeli */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E35529DC9C2E000AABED /* PaymentMeliApp.swift */,
+				EC64E35729DC9C2E000AABED /* ContentView.swift */,
+				EC64E35929DC9C2F000AABED /* Assets.xcassets */,
+				EC64E35B29DC9C2F000AABED /* Preview Content */,
+			);
+			path = PaymentMeli;
+			sourceTree = "<group>";
+		};
+		EC64E35B29DC9C2F000AABED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E35C29DC9C2F000AABED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC64E36529DC9C2F000AABED /* PaymentMeliTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E36629DC9C2F000AABED /* PaymentMeliTests.swift */,
+			);
+			path = PaymentMeliTests;
+			sourceTree = "<group>";
+		};
+		EC64E36F29DC9C2F000AABED /* PaymentMeliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E37029DC9C2F000AABED /* PaymentMeliUITests.swift */,
+				EC64E37229DC9C2F000AABED /* PaymentMeliUITestsLaunchTests.swift */,
+			);
+			path = PaymentMeliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC64E35129DC9C2E000AABED /* PaymentMeli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC64E37629DC9C2F000AABED /* Build configuration list for PBXNativeTarget "PaymentMeli" */;
+			buildPhases = (
+				EC64E34E29DC9C2E000AABED /* Sources */,
+				EC64E34F29DC9C2E000AABED /* Frameworks */,
+				EC64E35029DC9C2E000AABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentMeli;
+			productName = PaymentMeli;
+			productReference = EC64E35229DC9C2E000AABED /* PaymentMeli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC64E36129DC9C2F000AABED /* PaymentMeliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC64E37929DC9C2F000AABED /* Build configuration list for PBXNativeTarget "PaymentMeliTests" */;
+			buildPhases = (
+				EC64E35E29DC9C2F000AABED /* Sources */,
+				EC64E35F29DC9C2F000AABED /* Frameworks */,
+				EC64E36029DC9C2F000AABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC64E36429DC9C2F000AABED /* PBXTargetDependency */,
+			);
+			name = PaymentMeliTests;
+			productName = PaymentMeliTests;
+			productReference = EC64E36229DC9C2F000AABED /* PaymentMeliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC64E36B29DC9C2F000AABED /* PaymentMeliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC64E37C29DC9C2F000AABED /* Build configuration list for PBXNativeTarget "PaymentMeliUITests" */;
+			buildPhases = (
+				EC64E36829DC9C2F000AABED /* Sources */,
+				EC64E36929DC9C2F000AABED /* Frameworks */,
+				EC64E36A29DC9C2F000AABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC64E36E29DC9C2F000AABED /* PBXTargetDependency */,
+			);
+			name = PaymentMeliUITests;
+			productName = PaymentMeliUITests;
+			productReference = EC64E36C29DC9C2F000AABED /* PaymentMeliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC64E34A29DC9C2E000AABED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EC64E35129DC9C2E000AABED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EC64E36129DC9C2F000AABED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EC64E35129DC9C2E000AABED;
+					};
+					EC64E36B29DC9C2F000AABED = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EC64E35129DC9C2E000AABED;
+					};
+				};
+			};
+			buildConfigurationList = EC64E34D29DC9C2E000AABED /* Build configuration list for PBXProject "PaymentMeli" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC64E34929DC9C2E000AABED;
+			productRefGroup = EC64E35329DC9C2E000AABED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC64E35129DC9C2E000AABED /* PaymentMeli */,
+				EC64E36129DC9C2F000AABED /* PaymentMeliTests */,
+				EC64E36B29DC9C2F000AABED /* PaymentMeliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC64E35029DC9C2E000AABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC64E35D29DC9C2F000AABED /* Preview Assets.xcassets in Resources */,
+				EC64E35A29DC9C2F000AABED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC64E36029DC9C2F000AABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC64E36A29DC9C2F000AABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC64E34E29DC9C2E000AABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC64E35829DC9C2E000AABED /* ContentView.swift in Sources */,
+				EC64E35629DC9C2E000AABED /* PaymentMeliApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC64E35E29DC9C2F000AABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC64E36729DC9C2F000AABED /* PaymentMeliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC64E36829DC9C2F000AABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC64E37329DC9C2F000AABED /* PaymentMeliUITestsLaunchTests.swift in Sources */,
+				EC64E37129DC9C2F000AABED /* PaymentMeliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC64E36429DC9C2F000AABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC64E35129DC9C2E000AABED /* PaymentMeli */;
+			targetProxy = EC64E36329DC9C2F000AABED /* PBXContainerItemProxy */;
+		};
+		EC64E36E29DC9C2F000AABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC64E35129DC9C2E000AABED /* PaymentMeli */;
+			targetProxy = EC64E36D29DC9C2F000AABED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC64E37429DC9C2F000AABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC64E37529DC9C2F000AABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC64E37729DC9C2F000AABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentMeli/Preview Content\"";
+				DEVELOPMENT_TEAM = JQG68M34KX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meli.PaymentMeli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC64E37829DC9C2F000AABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentMeli/Preview Content\"";
+				DEVELOPMENT_TEAM = JQG68M34KX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meli.PaymentMeli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC64E37A29DC9C2F000AABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQG68M34KX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meli.PaymentMeliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentMeli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaymentMeli";
+			};
+			name = Debug;
+		};
+		EC64E37B29DC9C2F000AABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQG68M34KX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meli.PaymentMeliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentMeli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaymentMeli";
+			};
+			name = Release;
+		};
+		EC64E37D29DC9C2F000AABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQG68M34KX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meli.PaymentMeliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentMeli;
+			};
+			name = Debug;
+		};
+		EC64E37E29DC9C2F000AABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQG68M34KX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meli.PaymentMeliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentMeli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC64E34D29DC9C2E000AABED /* Build configuration list for PBXProject "PaymentMeli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64E37429DC9C2F000AABED /* Debug */,
+				EC64E37529DC9C2F000AABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC64E37629DC9C2F000AABED /* Build configuration list for PBXNativeTarget "PaymentMeli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64E37729DC9C2F000AABED /* Debug */,
+				EC64E37829DC9C2F000AABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC64E37929DC9C2F000AABED /* Build configuration list for PBXNativeTarget "PaymentMeliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64E37A29DC9C2F000AABED /* Debug */,
+				EC64E37B29DC9C2F000AABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC64E37C29DC9C2F000AABED /* Build configuration list for PBXNativeTarget "PaymentMeliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64E37D29DC9C2F000AABED /* Debug */,
+				EC64E37E29DC9C2F000AABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC64E34A29DC9C2E000AABED /* Project object */;
+}
