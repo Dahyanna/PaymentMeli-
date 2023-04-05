@@ -30,17 +30,13 @@ struct PickerPayFeeView: View {
           .pickerStyle(.wheel)
           .animation(nil, value: UUID())
         }else if payFeeVM.error != nil {
-          Text("Cargando ...")
-        }else{
           Text("No encontramos información")
+        }else{
+          Text("Cargando ...")
         }
       }
+      .onChange(of: payFeeVM.firtsItemSelect, perform: { newValue in
+        optionSelected = payFeeVM.firtsItemSelect
+      })
     }
 }
-
-/*
-struct PickerPayFeeView_Previews: PreviewProvider {
-    static var previews: some View {
-      PickerPayFeeView(didSelectFeeAction: {_ in }, listCostPayFee: [PayerCost()])
-    }
-}*/

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PaymentMethodListView: View {
-  var amount: Int
+  @State var amount: Int
   @ObservedObject private var pymentMethodVM = PymentMethodViewModel()
 
     var body: some View {
@@ -40,6 +40,8 @@ struct PaymentMethodListView: View {
               }
             }
           }
+        }else{
+          EmptyView()
         }
       }
       .padding()
@@ -51,7 +53,7 @@ struct PaymentMethodListView: View {
 extension PaymentMethodListView {
   enum Strings{
     static let textSelectCard = "Seleccione forma de pago"
-    static let textAmount = "Total:"
+    static let textAmount = "Total a Pagar:"
     static let textErrorApi = "Lo sentimos, no hemos podido cargar la información"
   }
 }

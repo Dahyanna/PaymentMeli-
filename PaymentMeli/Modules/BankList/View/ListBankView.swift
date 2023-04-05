@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ListBankView: View {
-  var amount: Int
+  @State var amount: Int
   @StateObject var listBankVM: ListBankViewModel
   @State private var showPickerPayFee = false
   @State private var optionSelectedFee = ""
   @State private var bankItem: BankListElement?
   @State private var isAlertPresent = false
+  @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
 
     var body: some View {
       VStack{
@@ -48,6 +49,7 @@ struct ListBankView: View {
               PickerPayFeeView(optionSelected: $optionSelectedFee, payFeeVM: PickerPayFeeViewModel(id_payment: listBankVM.idPayment, amount: amount, issuer_id: bankItem.id), didSelectedPayFee: {
                 showPickerPayFee = false
                 isAlertPresent = true
+                presentationMode.wrappedValue.dismiss()
               })
             }
           })
@@ -58,7 +60,9 @@ struct ListBankView: View {
       .padding()
       .navigationTitle(Strings.textTitle.uppercased())
       .navigationBarTitleDisplayMode(.inline)
-
+      .onDisappear{
+        presentationMode.wrappedValue.dismiss()
+      }
     }
 }
 
@@ -67,7 +71,7 @@ extension ListBankView {
     static let textSelectBank = "Seleccione Banco"
     static let textTitle = "Proceso de pago"
     static let textErrorApi = "Lo sentimos, no hemos podido cargar la información"
-    static let textErrorGeneric = "Error inesperado"
+    static let textErrorGeneric = "Cargando ..."
     static let textSuccesPay = "Su pago fue realizado: "
     static let buttonSuccesPay = "OK"
   }
