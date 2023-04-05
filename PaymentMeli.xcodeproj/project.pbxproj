@@ -11,7 +11,6 @@
 		EC64E35829DC9C2E000AABED /* PaymentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E35729DC9C2E000AABED /* PaymentInputView.swift */; };
 		EC64E35A29DC9C2F000AABED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC64E35929DC9C2F000AABED /* Assets.xcassets */; };
 		EC64E35D29DC9C2F000AABED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC64E35C29DC9C2F000AABED /* Preview Assets.xcassets */; };
-		EC64E36729DC9C2F000AABED /* PaymentMeliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E36629DC9C2F000AABED /* PaymentMeliTests.swift */; };
 		EC64E38429DCA64F000AABED /* PaymentMethodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E38329DCA64E000AABED /* PaymentMethodModel.swift */; };
 		EC64E38629DCAAB4000AABED /* PaymentMethodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E38529DCAAB4000AABED /* PaymentMethodListView.swift */; };
 		EC64E38929DCAE60000AABED /* NetworkPaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E38829DCAE60000AABED /* NetworkPaymentMethod.swift */; };
@@ -53,7 +52,6 @@
 		EC64E35929DC9C2F000AABED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC64E35C29DC9C2F000AABED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC64E36229DC9C2F000AABED /* PaymentMeliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentMeliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC64E36629DC9C2F000AABED /* PaymentMeliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMeliTests.swift; sourceTree = "<group>"; };
 		EC64E36C29DC9C2F000AABED /* PaymentMeliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentMeliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC64E38329DCA64E000AABED /* PaymentMethodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodModel.swift; sourceTree = "<group>"; };
 		EC64E38529DCAAB4000AABED /* PaymentMethodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodListView.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				EC64E35429DC9C2E000AABED /* PaymentMeli */,
-				EC64E36529DC9C2F000AABED /* PaymentMeliTests */,
 				EC64E35329DC9C2E000AABED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,14 +133,6 @@
 				EC64E35C29DC9C2F000AABED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EC64E36529DC9C2F000AABED /* PaymentMeliTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC64E36629DC9C2F000AABED /* PaymentMeliTests.swift */,
-			);
-			path = PaymentMeliTests;
 			sourceTree = "<group>";
 		};
 		EC64E37F29DC9CE7000AABED /* Payment */ = {
@@ -458,7 +447,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC64E36729DC9C2F000AABED /* PaymentMeliTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
