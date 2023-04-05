@@ -11,7 +11,9 @@ import SwiftUI
 struct PaymentMeliApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          NavigationView {
+            PaymentInputView()
+          }
         }
     }
 }

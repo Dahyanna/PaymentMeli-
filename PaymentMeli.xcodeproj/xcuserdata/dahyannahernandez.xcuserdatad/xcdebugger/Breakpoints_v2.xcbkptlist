@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CC58DD00-5447-4939-B13F-F9A66247371B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F7E06E3-EA8B-461C-9252-EA249E74D0CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PaymentMeli/Payment/Network/NetworkPaymentMethod.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getPaymentMethod(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F7E06E3-EA8B-461C-9252-EA249E74D0CB - bf81f3bf4a0183a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PaymentMeli.NetworkPaymentMethod.getPaymentMethod(completion: (Swift.Optional&lt;Swift.Array&lt;PaymentMeli.PymentMethodElement&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaymentMeli"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dahyannahernandez/Desktop/App/PaymentMeli/PaymentMeli/Payment/Network/NetworkPaymentMethod.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "808">
+               </Location>
+               <Location
+                  uuid = "7F7E06E3-EA8B-461C-9252-EA249E74D0CB - 2b8ff7f3f8aef335"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PaymentMeli.NetworkPaymentMethod.getPaymentMethod(completion: (Swift.Optional&lt;Swift.Array&lt;PaymentMeli.PymentMethodElement&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PaymentMeli"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dahyannahernandez/Desktop/App/PaymentMeli/PaymentMeli/Payment/Network/NetworkPaymentMethod.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
