@@ -18,6 +18,15 @@
 		EC64E38B29DCB050000AABED /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E38A29DCB050000AABED /* CommonConstants.swift */; };
 		EC64E38E29DCCB21000AABED /* PayCardCustomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E38D29DCCB21000AABED /* PayCardCustomCellView.swift */; };
 		EC64E39029DCD6A9000AABED /* PymentMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E38F29DCD6A9000AABED /* PymentMethodViewModel.swift */; };
+		EC64E39829DD2207000AABED /* BankListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E39729DD2207000AABED /* BankListModel.swift */; };
+		EC64E39A29DD22A8000AABED /* NetworkBankList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E39929DD22A8000AABED /* NetworkBankList.swift */; };
+		EC64E39C29DD256E000AABED /* ListBankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E39B29DD256E000AABED /* ListBankViewModel.swift */; };
+		EC64E39F29DD270C000AABED /* BankCardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E39E29DD270C000AABED /* BankCardCellView.swift */; };
+		EC64E3A229DD282D000AABED /* ListBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E3A129DD282D000AABED /* ListBankView.swift */; };
+		EC64E3A529DD2D3E000AABED /* PickerPayFeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E3A429DD2D3E000AABED /* PickerPayFeeView.swift */; };
+		EC64E3AC29DD3A31000AABED /* PickerPayFeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E3AB29DD3A31000AABED /* PickerPayFeeModel.swift */; };
+		EC64E3AE29DD3A82000AABED /* PickerPayFeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E3AD29DD3A82000AABED /* PickerPayFeeViewModel.swift */; };
+		EC64E3B029DD3AD9000AABED /* NetworkPayFee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64E3AF29DD3AD9000AABED /* NetworkPayFee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		EC64E38D29DCCB21000AABED /* PayCardCustomCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCardCustomCellView.swift; sourceTree = "<group>"; };
 		EC64E38F29DCD6A9000AABED /* PymentMethodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PymentMethodViewModel.swift; sourceTree = "<group>"; };
 		EC64E39129DCF036000AABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC64E39729DD2207000AABED /* BankListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankListModel.swift; sourceTree = "<group>"; };
+		EC64E39929DD22A8000AABED /* NetworkBankList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBankList.swift; sourceTree = "<group>"; };
+		EC64E39B29DD256E000AABED /* ListBankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBankViewModel.swift; sourceTree = "<group>"; };
+		EC64E39E29DD270C000AABED /* BankCardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardCellView.swift; sourceTree = "<group>"; };
+		EC64E3A129DD282D000AABED /* ListBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBankView.swift; sourceTree = "<group>"; };
+		EC64E3A429DD2D3E000AABED /* PickerPayFeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPayFeeView.swift; sourceTree = "<group>"; };
+		EC64E3AB29DD3A31000AABED /* PickerPayFeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPayFeeModel.swift; sourceTree = "<group>"; };
+		EC64E3AD29DD3A82000AABED /* PickerPayFeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPayFeeViewModel.swift; sourceTree = "<group>"; };
+		EC64E3AF29DD3AD9000AABED /* NetworkPayFee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPayFee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +123,7 @@
 				EC64E39129DCF036000AABED /* Info.plist */,
 				EC64E38A29DCB050000AABED /* CommonConstants.swift */,
 				EC64E35529DC9C2E000AABED /* PaymentMeliApp.swift */,
-				EC64E37F29DC9CE7000AABED /* Payment */,
+				EC64E3A029DD27D9000AABED /* Modules */,
 				EC64E35929DC9C2F000AABED /* Assets.xcassets */,
 				EC64E35B29DC9C2F000AABED /* Preview Content */,
 			);
@@ -179,6 +197,111 @@
 				EC64E38D29DCCB21000AABED /* PayCardCustomCellView.swift */,
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		EC64E39229DD21B3000AABED /* BankList */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E39629DD21E8000AABED /* Network */,
+				EC64E39529DD21D6000AABED /* ViewModel */,
+				EC64E39429DD21CE000AABED /* Model */,
+				EC64E39329DD21C5000AABED /* View */,
+			);
+			path = BankList;
+			sourceTree = "<group>";
+		};
+		EC64E39329DD21C5000AABED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E39D29DD26C1000AABED /* CustomView */,
+				EC64E3A129DD282D000AABED /* ListBankView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC64E39429DD21CE000AABED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E39729DD2207000AABED /* BankListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC64E39529DD21D6000AABED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E39B29DD256E000AABED /* ListBankViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC64E39629DD21E8000AABED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E39929DD22A8000AABED /* NetworkBankList.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EC64E39D29DD26C1000AABED /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E39E29DD270C000AABED /* BankCardCellView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EC64E3A029DD27D9000AABED /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E3A629DD39B7000AABED /* PickerPayFee */,
+				EC64E39229DD21B3000AABED /* BankList */,
+				EC64E37F29DC9CE7000AABED /* Payment */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EC64E3A629DD39B7000AABED /* PickerPayFee */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E3AA29DD39E1000AABED /* Network */,
+				EC64E3A929DD39D9000AABED /* ViewModel */,
+				EC64E3A829DD39D1000AABED /* Model */,
+				EC64E3A729DD39CB000AABED /* View */,
+			);
+			path = PickerPayFee;
+			sourceTree = "<group>";
+		};
+		EC64E3A729DD39CB000AABED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E3A429DD2D3E000AABED /* PickerPayFeeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC64E3A829DD39D1000AABED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E3AB29DD3A31000AABED /* PickerPayFeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC64E3A929DD39D9000AABED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E3AD29DD3A82000AABED /* PickerPayFeeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC64E3AA29DD39E1000AABED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EC64E3AF29DD3AD9000AABED /* NetworkPayFee.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,11 +436,20 @@
 			files = (
 				EC64E39029DCD6A9000AABED /* PymentMethodViewModel.swift in Sources */,
 				EC64E38E29DCCB21000AABED /* PayCardCustomCellView.swift in Sources */,
+				EC64E3A229DD282D000AABED /* ListBankView.swift in Sources */,
+				EC64E39C29DD256E000AABED /* ListBankViewModel.swift in Sources */,
 				EC64E38929DCAE60000AABED /* NetworkPaymentMethod.swift in Sources */,
 				EC64E38629DCAAB4000AABED /* PaymentMethodListView.swift in Sources */,
 				EC64E35829DC9C2E000AABED /* PaymentInputView.swift in Sources */,
+				EC64E3AC29DD3A31000AABED /* PickerPayFeeModel.swift in Sources */,
+				EC64E3B029DD3AD9000AABED /* NetworkPayFee.swift in Sources */,
+				EC64E39F29DD270C000AABED /* BankCardCellView.swift in Sources */,
 				EC64E35629DC9C2E000AABED /* PaymentMeliApp.swift in Sources */,
+				EC64E3AE29DD3A82000AABED /* PickerPayFeeViewModel.swift in Sources */,
+				EC64E39829DD2207000AABED /* BankListModel.swift in Sources */,
+				EC64E3A529DD2D3E000AABED /* PickerPayFeeView.swift in Sources */,
 				EC64E38B29DCB050000AABED /* CommonConstants.swift in Sources */,
+				EC64E39A29DD22A8000AABED /* NetworkBankList.swift in Sources */,
 				EC64E38429DCA64F000AABED /* PaymentMethodModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

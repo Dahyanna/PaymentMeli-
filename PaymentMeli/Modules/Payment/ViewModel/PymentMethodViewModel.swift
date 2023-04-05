@@ -31,7 +31,7 @@ class PymentMethodViewModel: ObservableObject {
       }
   }
 
-  func getListPymentMethod(){
+  private func getListPymentMethod(){
     data.getPaymentMethod { pymentMethod, error in
       if let list = pymentMethod {
         self.listPM = list

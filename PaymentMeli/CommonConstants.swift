@@ -13,7 +13,12 @@ struct ValueSessionUser{
 struct ConstantGeneral{
   static let publicKey = "public_key=444a9ef5-8a6b-429f-abdf-587639155d88"
   static let BASE = "https"
-  static let apiPayment = "https://api.mercadopago.com/v1/payment_methods"
+  static let apiBase = "https://api.mercadopago.com/v1/payment_methods"
+  static let apiListBank = "/card_issuers"
+  static let apiPayFee = "/installments"
+  static let listBankParams = "payment_method_id="
+  static let amountParam = "amount="
+  static let issuerIDParam = "issuer.id="
 }
 
 struct ResponseError: Error {

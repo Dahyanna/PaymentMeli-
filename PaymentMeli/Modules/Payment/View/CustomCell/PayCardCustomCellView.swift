@@ -16,7 +16,7 @@ struct PayCardCustomCellView: View {
           AsyncImage(url: img) { image in
                   image
                       .resizable()
-                      .scaledToFill()
+                      .scaledToFit()
                       .transition(.slide)
                       .frame(width: 48, height: 32)
               } placeholder: {

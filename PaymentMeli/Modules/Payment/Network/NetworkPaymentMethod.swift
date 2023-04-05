@@ -14,7 +14,7 @@ protocol NetworkPaymentMethodProtocol{
 class NetworkPaymentMethod: NetworkPaymentMethodProtocol{
 
   func getPaymentMethod(completion: @escaping(PymentMethod?, Error?) -> ()) {
-    guard let url = URL(string: "\(ConstantGeneral.apiPayment)?\(ConstantGeneral.publicKey)") else {
+    guard let url = URL(string: "\(ConstantGeneral.apiBase)?\(ConstantGeneral.publicKey)") else {
       completion(nil, ResponseError(type: .invalidURL))
       return
     }
@@ -23,19 +23,18 @@ class NetworkPaymentMethod: NetworkPaymentMethodProtocol{
           completion(nil, ResponseError(type: .badStatusCode))
             return
         }
-      if response.statusCode == 200 {
-            do {
-                let listPayment = try JSONDecoder().decode(PymentMethod.self, from: data)
-
-                DispatchQueue.main.async {
-                  completion(listPayment, nil)
-                }
-            } catch let error {
-              completion(nil, ResponseError(type: .invalidJson(error)))
-            }
-        }else{
-          completion(nil, ResponseError(type: .badStatusCode))
-        }
+      DispatchQueue.main.async {
+        if response.statusCode == 200 {
+              do {
+                  let listPayment = try JSONDecoder().decode(PymentMethod.self, from: data)
+                    completion(listPayment, nil)
+              } catch let error {
+                completion(nil, ResponseError(type: .invalidJson(error)))
+              }
+          }else{
+            completion(nil, ResponseError(type: .badStatusCode))
+          }
+      }
     } .resume()
   }
 }
